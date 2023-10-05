@@ -13,13 +13,30 @@ html{
     font-style:oblique;
 }
 
-.education h2{
+#education h2{
     text-decoration: underline;
     font-size:xx-large;
 }
 
-.education p{
+#education p{
     font-size: x-large;
     text-align: left;
     
+}
+
+#cskill{
+    width: 36;
+    height: 36;
+}
+
+/* .skills h2{
+    display: flex;
+    justify-content: center;
+} */
+
+.skills p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
 }
