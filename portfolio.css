@@ -1,27 +1,33 @@
 body{
-    background-color: rgb(183, 255, 0);
+    background-color: rgb(229, 201, 108);
 }
 
 html{
     margin: 20px ;
-    border: 5px solid black;;
+    border: 5px solid rgb(35, 31, 31);
 }
 
 .title{
     text-align: center;
     font-size: 50px;
     font-style:oblique;
+    color: rgb(0, 0, 0);
+    margin: 5%; 
+    border: 5px  black dotted;
+    padding: 5% black;
+    /* background-color: yellowgreen; */
 }
 
 #education h2{
     text-decoration: underline;
     font-size:xx-large;
+    color: red;
 }
 
 #education p{
     font-size: x-large;
     text-align: left;
-    
+    color: black;
 }
 
 #cskill{
@@ -29,14 +35,19 @@ html{
     height: 36;
 }
 
-/* .skills h2{
-    display: flex;
-    justify-content: center;
-} */
 
 .skills p{
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     flex-direction:row;
+}
+
+#x{
+    background-color: black;
+}
+
+#social{
+    color: red;
+   font-size: xx-large;
 }
