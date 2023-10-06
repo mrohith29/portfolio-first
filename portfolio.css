@@ -49,3 +49,32 @@ p {
 .desc {
     text-align: center;
 }
+
+#img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#img .frame{
+    width: 15%;
+    border-radius: 50%;
+    border: 5px solid #000;
+}
+
+#img img{
+    width: 100%;
+    border-radius: 50%;
+    opacity: 0;
+    transition: 0.5;
+    transition-duration: 0.75s;
+    transition-delay: 0.25s;
+}
+
+#img img:hover{
+    opacity: 1;
+}
+
+/* #img img:focus-visible:focus:focus-within{
+    opacity: 1;
+} */
