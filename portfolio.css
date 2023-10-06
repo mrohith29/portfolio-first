@@ -78,3 +78,19 @@ p {
 /* #img img:focus-visible:focus:focus-within{
     opacity: 1;
 } */
+
+hr{
+    /* width: 10px; */
+    height: 5px;
+  width: auto;
+  background-color:#150f15;
+  border: solid 1px;
+}
+
+.title{
+    border: 5px solid black;
+    width: 15%;
+    align-items: center;
+    display: inline;
+    background-color: bisque;
+}
